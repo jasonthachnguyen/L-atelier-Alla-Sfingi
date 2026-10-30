@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme{
+    --color-sfingi-light: #c69a74;
+    --color-birthmark: #a97c59;
+}

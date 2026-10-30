@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     path: "order",
     element: <OrderPage />
   },
-])
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
