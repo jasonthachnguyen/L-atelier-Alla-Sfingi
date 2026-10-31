@@ -3,4 +3,6 @@
 @theme{
     --color-sfingi-light: #c69a74;
     --color-birthmark: #a97c59;
+    --color-grey-egg: #d8dae1;
+    --color-overlay: rgba(0,0,0,0.5);
 }
