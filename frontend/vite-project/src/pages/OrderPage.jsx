@@ -27,6 +27,7 @@ import ProductCard from "../components/ProductCard";
 import InnerBackground from "../components/InnerBackground";
 import { ViewTransition } from "react";
 import Footer from "../components/Footer";
+import SubmitButton from "../components/SubmitButton";
 
 const OrderPage = () => {
     return (
@@ -70,6 +71,7 @@ const OrderPage = () => {
                         <ProductCard foodItem={soju}/>
                     </div>
                 </div>
+                <SubmitButton />
             </InnerBackground>
             <Footer />
         </ViewTransition>
