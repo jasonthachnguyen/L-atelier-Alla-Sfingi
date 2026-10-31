@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Logo from "../assets/Logo.svg"
 import { NavLink } from "react-router";
 
@@ -11,12 +10,10 @@ export default function Header(){
             <h1 className="text-3xl">L'atelier alla Sfingi</h1>
         </div> 
         <nav className="flex gap-7 text-2xl">
-            <NavLink to="/home"
+            <NavLink to="/"
                      className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
             <NavLink to="/about"
                      className={({ isActive }) => (isActive ? 'active' : '')}>Our Story</NavLink>
-            <NavLink to="/menu"
-                     className={({ isActive }) => (isActive ? 'active' : '')}>Menu</NavLink>
             <NavLink to="/order"
                      className={({ isActive }) => (isActive ? 'active' : '')}>Order</NavLink>
         </nav>
