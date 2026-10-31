@@ -25,7 +25,7 @@ const ProductCard = ({ foodItem }) => {
         </div>
         {/*Container for product image and order button on the right*/}
         <div className="flex flex-col justify-center">
-            <img className="p-5 rounded-full h-50 aspect-square -mb-15" src={foodItem.image} alt="A picture of Wonderful Sfingi"/>
+            <img className="p-5 rounded-full h-50 aspect-square object-cover -mb-15" src={foodItem.image} alt="A picture of Wonderful Sfingi"/>
             {/*Contains the modal that opens up when the order button is pressed*/}
             <OrderModal text="Order" modalState={modal} modalToggle={handleToggle}>
                 <h1 className="text-6xl text-stone-700">{foodItem.title}</h1>
