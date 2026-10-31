@@ -25,10 +25,12 @@ import {
 import Header from "../components/Header"
 import ProductCard from "../components/ProductCard";
 import InnerBackground from "../components/InnerBackground";
+import { ViewTransition } from "react";
+import Footer from "../components/Footer";
 
 const OrderPage = () => {
     return (
-        <>
+        <ViewTransition enter="slide-up" exit="slide-down">
             <Header />
             <InnerBackground>
                 <div className="flex flex-col items-center p-5 font-workSans">
@@ -69,7 +71,8 @@ const OrderPage = () => {
                     </div>
                 </div>
             </InnerBackground>
-        </>
+            <Footer />
+        </ViewTransition>
     )
 }
 

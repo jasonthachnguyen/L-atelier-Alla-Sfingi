@@ -1,15 +1,12 @@
 import Header from "../components/Header";
 import InnerBackground from "../components/InnerBackground";
+import { ViewTransition } from "react";
 
-const AboutPage = () => {
-    return (
-        <div>
+export default function AboutPage(){
+    return <ViewTransition enter="slide-up" exit="slide-down">
             <Header />
             <InnerBackground>
                 AboutPage
             </InnerBackground>
-        </div>
-    );
+        </ViewTransition>
 };
-
-export default AboutPage;

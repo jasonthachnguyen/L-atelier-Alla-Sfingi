@@ -3,8 +3,10 @@
 
 @theme{
     --color-sfingi-light: #c69a74;
+    --color-sub-body: #d8b399;
     --color-birthmark: #a97c59;
     --color-birthmark-light: #bd8c66;
+    --color-ash-black: #32302e;
     --color-grey-egg: #d8dae1;
     --color-overlay: rgba(0,0,0,0.5);
     
