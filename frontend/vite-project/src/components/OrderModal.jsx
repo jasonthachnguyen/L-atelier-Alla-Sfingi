@@ -1,7 +1,7 @@
 export default function OrderModal({text, foodItem, children, modalState, modalToggle}){
     return <>
         <button 
-        className="my-5 py-4 mx-5 bg-birthmark text-stone-200 text-xl rounded-full"
+        className="my-5 py-4 mx-5 bg-birthmark text-stone-200 text-2xl rounded-full hover:bg-birthmark-light"
         onClick={ modalToggle }>
             {text}
         </button>

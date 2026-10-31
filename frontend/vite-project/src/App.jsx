@@ -1,11 +1,13 @@
-import { Link, Route, Routes } from "react-router";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
 import "./index.css";
+import Header from "./components/Header";
+import InnerBackground from "./components/InnerBackground";
 
 const App = () => {
   return <div>
-    <Link to="order">test</Link>
+    <Header />
+    <InnerBackground>
+
+    </InnerBackground>
   </div>;
 }
 
