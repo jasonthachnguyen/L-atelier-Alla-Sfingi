@@ -6,7 +6,7 @@ import { useState, useCallback } from "react";
 const ProductCard = ({ foodItem }) => {
     
     const [modal, setModal] = useState(false);
-    const [quantity, setQuantity] = useState(0); 
+    const [quantity, setQuantity] = useState(1); 
 
     const handleToggle = useCallback(() => setModal(prevModal => !prevModal), []);
     const handleQuantityIncrease = useCallback(() => setQuantity(quantity => quantity + 1), []);

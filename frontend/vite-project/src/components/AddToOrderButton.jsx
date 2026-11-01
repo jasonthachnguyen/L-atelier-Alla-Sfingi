@@ -1,11 +1,8 @@
 import cart from "../data/Cart";
 export default function AddToOrderButton({ children, modalToggle, foodItem, quantity}){
-        
-
     function addToOrder(){
-        const cartItem = {foodItem, quantity};
-        cart.push(cartItem);
-        console.log(cart);
+        foodItem.quantity = quantity;
+        cart.items.push(foodItem);
         modalToggle();
     }
 
